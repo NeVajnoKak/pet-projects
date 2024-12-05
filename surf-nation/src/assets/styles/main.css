@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    font-family: "Istok Web", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 1rem;
+}
+button:focus {
+    outline: revert;
+  }
+button:hover {
+    border: 1px solid #D8F9FF;
+    opacity: 0.9;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.9;
+    margin-left: 6%;
+    margin-bottom: 0.7%;
+    font-size: 1.25rem;
+}
+
+a:last-child {
+    margin-right: 0;
+}
+a:hover {
+    color: #fff;
+    opacity: 1;
+}
