@@ -8,7 +8,7 @@ const Hero = () => {
       <div className={styles.hero}>
         <div className={styles.subTitle}>SURF NATION ACADEMY</div>
         <div className={styles.title}>
-          IT`S WHERE BIG <br/>WAVE SURFERS <br/>NEED TO BE
+          IT`S WHERE BIG WAVE SURFERS NEED TO BE
         </div>
         <Button title="LET`S SURF"/>
       </div>

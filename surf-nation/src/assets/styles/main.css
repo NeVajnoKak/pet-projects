@@ -1,36 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 * {
-    font-family: "Istok Web", sans-serif;
+  font-family: "Istok Web", sans-serif;
 }
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 button {
-    background-color: transparent;
-    border: 1px solid #fff;
-    font-size: 1rem;
+  transition: 1s all ease;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 1px solid #fff;
+  margin-top: 2%;
 }
 button:focus {
-    outline: revert;
-  }
+  outline: revert;
+}
 button:hover {
-    border: 1px solid #D8F9FF;
-    opacity: 0.9;
+  border: 1px solid #d8f9ff;
+  opacity: 0.9;
 }
 a {
-    text-decoration: none;
-    color: #fff;
-    opacity: 0.9;
-    margin-left: 6%;
-    margin-bottom: 0.7%;
-    font-size: 1.25rem;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.9;
+  margin-left: 6%;
+  margin-bottom: 0.7%;
+  font-size: 1.25rem;
 }
 
 a:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 a:hover {
-    color: #fff;
-    opacity: 1;
+  color: #fff;
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  a {
+    transition: 1s all ease;
+    font-size: 1.1rem;
+  }
+  button {
+    transition: 1s all ease;
+    font-size: 1.2rem;
+    margin-top: 3%;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 765px) {
+  a {
+    display: none;
+  }
+  button {
+    margin-top: 8%;
+    transition: 1s all ease;
+    font-size: 1rem;
+  }
 }

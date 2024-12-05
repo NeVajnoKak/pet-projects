@@ -1,11 +1,57 @@
 .hero {
-    margin-top: 10%;
+    margin-top: 8%;
 }
 .subTitle {
-    font-size: 1.5rem;
+    transition: 1s all ease;
+    font-size: 1.8rem;
 }
 .title {
     color: #D8F9FF;
     font-size: 6.25rem;
     font-weight: 700;
+    width: 70%;
+    margin-top: 2%;
+}
+
+@media screen and (min-width: 1028px){
+    .subTitle {
+        transition: 1s all ease;
+        font-size: 1.5rem;
+    }
+    .title {
+        transition: 1s all ease;
+        font-size: 6.25rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .hero {
+        margin-top: 15%;
+    }
+    .subTitle {
+        transition: 1s all ease;
+        font-size: 1.5rem;
+       
+    }
+    .title {
+        transition: 1s all ease;
+        font-size: 5.5rem;
+        margin-top: 7%;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 765px) {
+    .hero {
+        margin-top: 20%;
+    }
+    .subTitle {
+        transition: 1s all ease;
+        font-size: 1.5rem;
+    }
+    .title {
+        transition: 1s all ease;
+        font-size: 3.5rem;
+        margin-top: 12%;
+        width: 80%;
+    }
 }
