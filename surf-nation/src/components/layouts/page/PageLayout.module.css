@@ -1,18 +1,4 @@
 .page {
-    width: 100vw;
-    height: 100vh;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .page {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-}
-@media screen and (min-width: 360px) and (max-width: 765px) {
-    .page {
-        margin-right: 5%;
-        margin-left: 5%;
-    }
+  width: 100vw;
+  height: 100vh;
 }
